@@ -45,7 +45,7 @@ const DoctorDetails = () => {
     return (
         <div className='flex flex-col'>
             <div className=" bg-base-200">
-  <div className="flex p-10 ">
+  <div className="flex flex-col md:flex-row p-10 ">
     <img
       src={image}
       className="max-w-xs rounded-lg px-5"
@@ -63,7 +63,7 @@ const DoctorDetails = () => {
         availability.map((day,index)=><p key={index} className='bg-amber-300 p-1 px-3 rounded-2xl'>{day}</p>)
        }
      </div>
-     <p className='py-2 font-semibold'>Consultation Fee: Taka : <span className='text-blue-600'>{fee}</span> (incl. Vat) Per consultation</p>
+     <p className='py-4 md:py-2 font-semibold'>Consultation Fee: Taka : <span className='text-blue-600'>{fee}</span> (incl. Vat) Per consultation</p>
    </div>
    
   </div>

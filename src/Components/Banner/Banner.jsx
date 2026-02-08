@@ -4,12 +4,12 @@ const Banner = () => {
     return (
        <div className="hero bg-base-100 min-h-screen mt-2 md:mt-3 mb-5 md:mb-10 border-2 border-base-300 rounded-xl">
   <div className="hero-content flex-col-reverse">
-    <div className='flex flex-col items-center md:flex-row h-64 object-cover gap-4'>
+    <div className='flex flex-col items-center md:flex-row max-h-screen object-cover gap-4'>
 <img
       src="https://i.ibb.co.com/WWb4mtrs/ai-generative-portrait-of-confident-male-doctor-in-white-coat-and-stethoscope-standing-with-arms-cro.jpg"
-      className="max-w-1/2  shadow-2xl rounded-xl"
+      className=" w-full md:w-1/2  shadow-2xl rounded-xl"
     />
-    <img src="https://i.ibb.co.com/YBD1wQd3/240-F-145106710-EAZHZic-G5-GN8-Xzok-N23-Ae-FLr-Ia-V4-P3-IT.jpg" className="max-w-1/2 rounded-lg shadow-2xl" />
+    <img src="https://i.ibb.co.com/YBD1wQd3/240-F-145106710-EAZHZic-G5-GN8-Xzok-N23-Ae-FLr-Ia-V4-P3-IT.jpg" className="w-full md:w-1/2 rounded-lg shadow-2xl" />
 
     </div>
     
