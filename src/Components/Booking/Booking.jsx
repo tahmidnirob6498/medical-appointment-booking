@@ -44,11 +44,11 @@ if (netDoctor.length === 0) {
   }
    
     return (
-        <div>
-           <div className='my-5'>
+        <div className=''>
+           <div className='my-5 w-full h-64 md:h-80 lg:h-96'>
          <BarChart
-        width={500}
-        height={400}
+        width='100%'
+        height='100%'
         data={netDoctor}
       >
         <XAxis dataKey="name" />

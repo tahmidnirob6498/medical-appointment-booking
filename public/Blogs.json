@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "What is useState and how does it work in React?",
+    "answer": "useState is a React Hook that allows functional components to store and manage state. It takes an initial value and returns the current state and a function to update it. When the state is updated, React re-renders the component to reflect the changes in the UI.",
+    "addedDate": "2026-02-08"
+  },
+  {
+    "id": 2,
+    "question": "What is the purpose of useEffect in React?",
+    "answer": "useEffect is used to handle side effects in React components such as data fetching, DOM manipulation, timers, and subscriptions. It runs after the component renders and can be controlled using a dependency array to decide when it should execute.",
+    "addedDate": "2026-02-08"
+  },
+  {
+    "id": 3,
+    "question": "What is a custom hook in React and when should you use one?",
+    "answer": "A custom hook is a reusable function in React that starts with 'use' and can use other React hooks inside it. You should use a custom hook when you want to reuse logic across multiple components and keep your components clean and maintainable.",
+    "addedDate": "2026-02-08"
+  },
+  {
+    "id": 4,
+    "question": "What is the difference between controlled and uncontrolled components? Which one is better?",
+    "answer": "Controlled components are form elements whose values are controlled by React state using value and onChange, while uncontrolled components rely on the DOM and refs to manage their values. Controlled components are generally better because they provide better control, validation, and predictable behavior.",
+    "addedDate": "2026-02-08"
+  },
+  {
+    "id": 5,
+    "question": "What is useFormStatus() in React?",
+    "answer": "useFormStatus() is a React DOM hook mainly used with Server Actions to track the status of a form submission. It provides information like whether the form is currently pending, which helps in disabling buttons and showing loading states during submission.",
+    "addedDate": "2026-02-08"
+  }
+]

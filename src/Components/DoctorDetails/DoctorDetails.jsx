@@ -75,7 +75,7 @@ const DoctorDetails = () => {
     {availability.includes(today) ? <p className='text-green-500 bg-green-100 px-2 rounded-xl'>Doctor available today</p>:<p className='text-red-500 bg-red-100 px-2 rounded-xl'>Doctor not available today</p>
     }</div>
    <div className='border border-dotted border-gray-600 my-1'></div>
-    <button className={`btn bg-blue-500 rounded-3xl mt-4 ${availability.includes(today) || " bg-slate-300 text-gray-200"} text-white w-full`} onClick={navigateBook}>Book Appoinment Now</button>
+    <button className={`btn bg-blue-500 rounded-3xl mt-4 ${availability.includes(today) || " bg-slate-300 text-gray-200"} text-white w-full`} disabled={availability.includes(today) ? false : true} onClick={navigateBook}>Book Appoinment Now</button>
     <ToastContainer />
 
 

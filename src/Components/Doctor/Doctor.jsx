@@ -16,9 +16,9 @@ const Doctor = ({doctor,handleDoctor}) => {
     <div className='bg-base-200 p-5 my-8'>
 
     <div className='border border-dotted border-gray-600 my-1 mt-4'></div>
-    <div className='my-3 flex justify-between items-center'><div className='text-start'>
+    <div className='my-3 flex text-center flex-col sm:flex-row justify-between items-center'><div className='text-start'>
         <h1 className='text-3xl font-semibold'>{name}</h1>
-        <p className='my-3'>{education}</p>
+        <p className='my-3 text-sm sm:text-lg'>{education}</p>
     </div>
     <p>Appointment Fee : {fee} Taka + Vat</p></div>
    <div className='border border-dotted border-gray-600 my-1'></div>

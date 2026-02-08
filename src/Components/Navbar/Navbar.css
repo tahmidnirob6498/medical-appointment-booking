@@ -1,4 +1,4 @@
-ul .active{
+ul li .active{
 text-decoration: underline;
 font-weight: 500;
 }

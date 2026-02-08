@@ -4,6 +4,8 @@ import Static from './Static';
 import Home from './Home';
 import DoctorDetails from '../Components/DoctorDetails/DoctorDetails';
 import Booking from '../Components/Booking/Booking';
+import Blogs from '../Components/Blogs/Blogs';
+import Error from './Error';
 
 
    export const router = createBrowserRouter([
@@ -34,10 +36,26 @@ import Booking from '../Components/Booking/Booking';
           const res=await fetch('/Doctors.json')
           return res.json()
           }
+        },
+        {
+          path:"blogs",
+          Component:Blogs,
+          loader:async()=>{
+           const res= await fetch("/Blogs.json")
+           return res.json()
+          }
+        },
+        {
+          path:"contact",
+          Component:Error
         }
     ]
 
     
   },
+  {
+    path:'*',
+    Component:Error
+  }
 ]);
 
