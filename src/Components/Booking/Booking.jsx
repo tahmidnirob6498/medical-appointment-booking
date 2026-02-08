@@ -67,7 +67,7 @@ if (netDoctor.length === 0) {
             <p>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience.</p>
          </div>
         {
-         netDoctor.map(doctor=><Doctor handleDoctor={handleDoctor} doctor={doctor}></Doctor>)   
+         netDoctor.map(doctor=><Doctor handleDoctor={handleDoctor} key={doctor.id} doctor={doctor}></Doctor>)   
         }
 
             
