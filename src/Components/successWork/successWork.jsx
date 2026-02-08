@@ -15,21 +15,21 @@ const SuccessWork = () => {
         </div>  
 
         <div className='flex flex-col gap-3 border border-black rounded-xl bg-base-100 items-center justify-center p-5'>
-        <img src="../../../C001-assets/success-doctor.png" height={50} width={50} alt="" />
+        <img src="../../../C001-assets/success-review.png" height={50} width={50} alt="" />
         <p className='text-4xl lg:text-5xl font-semibold'>467+</p>
-        <p>Total Doctors</p>
+        <p>Total Reviews</p>
         </div>
 
        <div className='flex flex-col gap-3 border border-black rounded-xl bg-base-100 items-center justify-center p-5'>
-        <img src="../../../C001-assets/success-doctor.png" height={50} width={50} alt="" />
-        <p className='text-4xl lg:text-5xl font-semibold'>300+</p>
-        <p>Total Doctors</p>
+        <img src="../../../C001-assets/success-patients.png" height={50} width={50} alt="" />
+        <p className='text-4xl lg:text-5xl font-semibold'>1900+</p>
+        <p>Patients</p>
         </div>
 
        <div className='flex flex-col gap-3 border border-black rounded-xl bg-base-100 items-center justify-center p-5'>
-        <img src="../../../C001-assets/success-doctor.png" height={50} width={50} alt="" />
+        <img src="../../../C001-assets/success-staffs.png" height={50} width={50} alt="" />
         <p className='text-4xl lg:text-5xl font-semibold'>199+</p>
-        <p>Total Doctors</p>
+        <p>Total Stuffs</p>
         </div>
         </div>
 
