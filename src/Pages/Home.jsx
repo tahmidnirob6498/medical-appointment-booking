@@ -7,7 +7,7 @@ import SuccessWork from '../Components/successWork/successWork';
 const Home = () => {
     const DoctorsData=useLoaderData()
     return (
-        <div className='bg-base-300 p-8'>
+        <div className='bg-base-300 md:p-8'>
           <Banner></Banner> 
           <Doctors DoctorsData={DoctorsData}></Doctors> 
           <SuccessWork></SuccessWork>

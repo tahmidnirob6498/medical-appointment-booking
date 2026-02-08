@@ -8,13 +8,13 @@ const DoctorCard = ({doctor}) => {
     return (
        
             <div className=" bg-base-100 p-0 rounded-xl  shadow-sm">
-  <figure className=" flex justify-center items-center rounded-2xl pt-3">
+  <figure className=" flex justify-center items-center rounded-2xl pt-3 px-2">
     <img
       src={image}
       className="rounded-xl h-64 object-cover w-60" />
   </figure>
   <div className="card-body text-start">
-    <h2 className="card-title text-2xl font-bold">{name}</h2>
+    <h2 className="card-title text-xl md:text-2xl font-bold">{name}</h2>
     <p className='text-gray-700  font-semibold'>{education}</p>
     
     <div className="card-actions border-t pt-3 gap-4 mt-3 border-dotted flex flex-col">
